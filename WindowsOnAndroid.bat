@@ -1,4 +1,7 @@
 @echo off
+goto 1
+:1
+cls
 echo ----------------------------------------------
 echo       Welcome to Windows On Android!
 echo ----------------------------------------------
@@ -22,6 +25,17 @@ if %niez%==7 exit
 echo Checking connected devices... (if your devices isn't recognized close the program and check the connection.)
 adb.exe devices
 timeout 10
+cls
+echo Select an option:
+echo 1) Install Windows
+echo 2) Uninstall Windows
+echo 3)Return to the menu
+set /p bigilar=
+if %bigilar%==1 goto ixp
+if %bigilar%==2 goto uxp
+if %bigilar%==3 goto 1
+:ixp
+cls
 adb.exe install 1.apk
 adb.exe install 2.apk
 echo Check if Termux and VNC Viewer are installed and press enter.
@@ -77,8 +91,10 @@ adb.exe shell input text termux-setup-storage
 adb.exe shell input keyevent 66
 echo Please allow the storage permission!
 timeout 15
+cls
 echo Downloading Windows... (This may take a while)
-wget.exe https://cdn-142.anonfiles.com/5fY8Ecfby2/324f2f18-1652378772/XPx64Lite.qcow2 --no-check-certificate
+echo Please download Windows from https://anonfiles.com/5fY8Ecfby2 and put it on the directory of this program and press enter.
+pause
 adb.exe push XPx64Lite.qcow2 /sdcard
 del XPx64Lite.qcow2 /f /q
 timeout 10
@@ -175,6 +191,17 @@ exit
 echo Checking connected devices... (if your devices isn't recognized close the program and check the connection.)
 adb.exe devices
 timeout 10
+cls
+echo Select an option:
+echo 1) Install Windows
+echo 2) Uninstall Windows
+echo 3)Return to the menu
+set /p qwerty=
+if %qwerty%==1 goto i7
+if %qwerty%==2 goto u7
+if %qwerty%==3 goto 1
+:i7
+cls
 adb.exe install 1.apk
 adb.exe install 2.apk
 echo Check if Termux and VNC Viewer are installed and press enter.
@@ -230,8 +257,10 @@ adb.exe shell input text termux-setup-storage
 adb.exe shell input keyevent 66
 echo Please allow the storage permission!
 timeout 15
+cls
 echo Downloading Windows... (This may take a while)
-wget.exe https://cdn-123.anonfiles.com/daz7Fef3y4/7161bd37-1652378784/7.vhd --no-check-certificate
+echo Please download Windows from https://anonfiles.com/daz7Fef3y4 and put it on the directory of this program and press enter.
+pause
 adb.exe push 7.vhd /sdcard
 del 7.vhd /f /q
 timeout 10
@@ -328,6 +357,17 @@ exit
 echo Checking connected devices... (if your devices isn't recognized close the program and check the connection.)
 adb.exe devices
 timeout 10
+cls
+echo Select an option:
+echo 1) Install Windows
+echo 2) Uninstall Windows
+echo 3)Return to the menu
+set /p nus=
+if %nus%==1 goto i8
+if %nus%==2 goto u8
+if %nus%==3 goto 1
+:i8
+cls
 adb.exe install 1.apk
 adb.exe install 2.apk
 echo Check if Termux and VNC Viewer are installed and press enter.
@@ -383,8 +423,10 @@ adb.exe shell input text termux-setup-storage
 adb.exe shell input keyevent 66
 echo Please allow the storage permission!
 timeout 15
+cls
 echo Downloading Windows... (This may take a while)
-wget.exe https://cdn-124.anonfiles.com/r6ueF1fay4/25186489-1652378790/8.vhd --no-check-certificate
+echo Please download Windows from https://anonfiles.com/r6ueF1fay4 and put it on the directory of this program and press enter.
+pause
 adb.exe push 8.vhd /sdcard
 del 8.vhd /f /q 
 timeout 10
@@ -481,6 +523,17 @@ exit
 echo Checking connected devices... (if your devices isn't recognized close the program and check the connection.)
 adb.exe devices
 timeout 10
+cls
+echo Select an option:
+echo 1) Install Windows
+echo 2) Uninstall Windows
+echo 3)Return to the menu
+set /p oi=
+if %oi%==1 goto i10
+if %oi%==2 goto u10
+if %oi%==3 goto 1
+:i10
+cls
 adb.exe install 1.apk
 adb.exe install 2.apk
 echo Check if Termux and VNC Viewer are installed and press enter.
@@ -536,8 +589,10 @@ adb.exe shell input text termux-setup-storage
 adb.exe shell input keyevent 66
 echo Please allow the storage permission!
 timeout 15
+cls
 echo Downloading Windows... (This may take a while)
-wget.exe https://cdn-123.anonfiles.com/zbP6E0fdyf/89d455d9-1652378794/10.vhd --no-check-certificate
+echo Please download Windows from https://anonfiles.com/zbP6E0fdyf and put it on the directory of this program and press enter.
+pause
 adb.exe push 10.vhd /sdcard
 del 10.vhd /f /q
 timeout 10
@@ -634,6 +689,17 @@ exit
 echo Checking connected devices... (if your devices isn't recognized close the program and check the connection.)
 adb.exe devices
 timeout 10
+cls
+echo Select an option:
+echo 1) Install Windows
+echo 2) Uninstall Windows
+echo 3)Return to the menu
+set /p pk=
+if %pk%==1 goto i11
+if %pk%==2 goto u11
+if %pk%==3 goto 1
+:i11
+cls
 adb.exe install 1.apk
 adb.exe install 2.apk
 echo Check if Termux and VNC Viewer are installed and press enter.
@@ -689,8 +755,10 @@ adb.exe shell input text termux-setup-storage
 adb.exe shell input keyevent 66
 echo Please allow the storage permission!
 timeout 15
+cls
 echo Downloading Windows... (This may take a while)
-wget.exe https://cdn-124.anonfiles.com/hbv9Faffyf/04e7f2be-1652378801/11.qcow2 --no-check-certificate
+echo Please download Windows from https://anonfiles.com/hbv9Faffyf and put it on the directory of this program and press enter.
+pause
 adb.exe push 11.qcow2 /sdcard
 del 11.qcow2 /f /q
 timeout 10
@@ -787,6 +855,17 @@ exit
 echo Checking connected devices... (if your devices isn't recognized close the program and check the connection.)
 adb.exe devices
 timeout 10
+cls
+echo Select an option:
+echo 1) Install Windows
+echo 2) Uninstall Windows
+echo 3)Return to the menu
+set /p lk=
+if %lk%==1 goto ivista
+if %lk%==2 goto uvista
+if %lk%==3 goto 1
+:ivista
+cls
 adb.exe install 1.apk
 adb.exe install 2.apk
 echo Check if Termux and VNC Viewer are installed and press enter.
@@ -842,8 +921,10 @@ adb.exe shell input text termux-setup-storage
 adb.exe shell input keyevent 66
 echo Please allow the storage permission!
 timeout 15
+cls
 echo Downloading Windows... (This may take a while)
-wget.exe https://cdn-141.anonfiles.com/3508Fff8yf/9d5582f2-1652378778/vista.qcow2 --no-check-certificate
+echo Please download Windows from https://anonfiles.com/3508Fff8yf and put it on the directory of this program and press enter.
+pause
 adb.exe push vista.qcow2 /sdcard
 del vista.qcow2 /f /q
 timeout 10
@@ -936,3 +1017,138 @@ echo If it says Permission Denied, enter this command: "chmod +x vista.sh"
 echo Then open VNC Viwer and connect to 127.0.0.1:1 and done!
 pause
 exit
+:uxp
+cls
+echo Uninstalling Windows...
+echo Deleting Windows image...
+adb.exe shell rm /sdcard/XPx64Lite.qcow2
+echo Starting Termux and deleting startup script...
+adb.exe shell am start -a android.intent.action.MAIN -n com.termux/com.termux.app.TermuxActivity
+timeout 2
+adb.exe shell input text rm
+adb.exe shell input keyevent 62
+adb.exe shell input text XP.sh
+adb.exe shell input keyevent 66
+echo Do you want to uninstall Termux and VNC Viwer? (y/N)
+set /p cv=
+if %cv%==y echo Uninstalling Termux and VNC Viwer...
+if %cv%==Y echo Uninstalling Termux and VNC Viwer...
+if %cv%==n goto finish
+if %cv%==N goto finish
+adb.exe uninstall com.termux
+adb.exe uninstall com.realvnc.viewer.android
+goto finish
+:u7
+cls
+echo Uninstalling Windows...
+echo Deleting Windows image...
+adb.exe shell rm /sdcard/7.vhd
+echo Starting Termux and deleting startup script...
+adb.exe shell am start -a android.intent.action.MAIN -n com.termux/com.termux.app.TermuxActivity
+timeout 2
+adb.exe shell input text rm
+adb.exe shell input keyevent 62
+adb.exe shell input text 7.sh
+adb.exe shell input keyevent 66
+echo Do you want to uninstall Termux and VNC Viwer? (y/N)
+set /p aa=
+if %aa%==y echo Uninstalling Termux and VNC Viwer...
+if %aa%==Y echo Uninstalling Termux and VNC Viwer...
+if %aa%==n goto finish
+if %aa%==N goto finish
+adb.exe uninstall com.termux
+adb.exe uninstall com.realvnc.viewer.android
+goto finish
+:u8
+cls
+echo Uninstalling Windows...
+echo Deleting Windows image...
+adb.exe shell rm /sdcard/8.vhd
+echo Starting Termux and deleting startup script...
+adb.exe shell am start -a android.intent.action.MAIN -n com.termux/com.termux.app.TermuxActivity
+timeout 2
+adb.exe shell input text rm
+adb.exe shell input keyevent 62
+adb.exe shell input text 8.sh
+adb.exe shell input keyevent 66
+echo Do you want to uninstall Termux and VNC Viwer? (y/N)
+set /p bb=
+if %bb%==y echo Uninstalling Termux and VNC Viwer...
+if %bb%==Y echo Uninstalling Termux and VNC Viwer...
+if %bb%==n goto finish
+if %bb%==N goto finish
+adb.exe uninstall com.termux
+adb.exe uninstall com.realvnc.viewer.android
+goto finish
+:u10
+cls
+echo Uninstalling Windows...
+echo Deleting Windows image...
+adb.exe shell rm /sdcard/10.vhd
+echo Starting Termux and deleting startup script...
+adb.exe shell am start -a android.intent.action.MAIN -n com.termux/com.termux.app.TermuxActivity
+timeout 2
+adb.exe shell input text rm
+adb.exe shell input keyevent 62
+adb.exe shell input text 10.sh
+adb.exe shell input keyevent 66
+echo Do you want to uninstall Termux and VNC Viwer? (y/N)
+set /p cc=
+if %cc%==y echo Uninstalling Termux and VNC Viwer...
+if %cc%==Y echo Uninstalling Termux and VNC Viwer...
+if %cc%==n goto finish
+if %cc%==N goto finish
+adb.exe uninstall com.termux
+adb.exe uninstall com.realvnc.viewer.android
+goto finish
+:u11
+cls
+echo Uninstalling Windows...
+echo Deleting Windows image...
+adb.exe shell rm /sdcard/11.qcow2
+echo Starting Termux and deleting startup script...
+adb.exe shell am start -a android.intent.action.MAIN -n com.termux/com.termux.app.TermuxActivity
+timeout 2
+adb.exe shell input text rm
+adb.exe shell input keyevent 62
+adb.exe shell input text 11.sh
+adb.exe shell input keyevent 66
+echo Do you want to uninstall Termux and VNC Viwer? (y/N)
+set /p dd=
+if %dd%==y echo Uninstalling Termux and VNC Viwer...
+if %dd%==Y echo Uninstalling Termux and VNC Viwer...
+if %dd%==n goto finish
+if %dd%==N goto finish
+adb.exe uninstall com.termux
+adb.exe uninstall com.realvnc.viewer.android
+goto finish
+:uvista
+cls
+echo Uninstalling Windows...
+echo Deleting Windows image...
+adb.exe shell rm /sdcard/vista.qcow2
+echo Starting Termux and deleting startup script...
+adb.exe shell am start -a android.intent.action.MAIN -n com.termux/com.termux.app.TermuxActivity
+timeout 2
+adb.exe shell input text rm
+adb.exe shell input keyevent 62
+adb.exe shell input text vista.sh
+adb.exe shell input keyevent 66
+echo Do you want to uninstall Termux and VNC Viwer? (y/N)
+set /p ee=
+if %ee%==y echo Uninstalling Termux and VNC Viwer...
+if %ee%==Y echo Uninstalling Termux and VNC Viwer...
+if %ee%==n goto finish
+if %ee%==N goto finish
+adb.exe uninstall com.termux
+adb.exe uninstall com.realvnc.viewer.android
+goto finish
+:finish
+cls
+echo Windows Uninstalled!
+echo Choose:
+echo 1) Return to menu
+echo 2) EXIT
+set /p ggg=
+if %ggg%==1 goto 1
+if %ggg%==2 exit
