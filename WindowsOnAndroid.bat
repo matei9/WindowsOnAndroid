@@ -93,7 +93,7 @@ echo Please allow the storage permission!
 timeout 15
 cls
 echo Downloading Windows... (This may take a while)
-echo Please download Windows from https://anonfiles.com/5fY8Ecfby2 and put it on the directory of this program and press enter.
+echo Please download Windows from https://drive.google.com/file/d/1cO9hqwIz4uh8nEWWxayAFf5_LUiRUFs7/view?usp=sharing and put it on the directory of this program and press enter.
 pause
 adb.exe push XPx64Lite.qcow2 /sdcard
 del XPx64Lite.qcow2 /f /q
@@ -259,10 +259,10 @@ echo Please allow the storage permission!
 timeout 15
 cls
 echo Downloading Windows... (This may take a while)
-echo Please download Windows from https://anonfiles.com/daz7Fef3y4 and put it on the directory of this program and press enter.
+echo Please download Windows from https://drive.google.com/file/d/10tPGY0hRYyHURHSoUYEJzhPtBcVtzdCb/view?usp=sharing and put it on the directory of this program and press enter.
 pause
-adb.exe push 7.vhd /sdcard
-del 7.vhd /f /q
+adb.exe push 7.qcow2 /sdcard
+del 7.qcow2 /f /q
 timeout 10
 echo How much ram do you wish to set for Windows? (2048 recomended)
 set /p ram=
@@ -277,7 +277,7 @@ adb.exe shell input text %ram%
 adb.exe shell input keyevent 62
 adb.exe shell input text -hda
 adb.exe shell input keyevent 62
-adb.exe shell input text /storage/emulated/0/7.vhd
+adb.exe shell input text /storage/emulated/0/7.qcow2
 adb.exe shell input keyevent 62
 adb.exe shell input text -vnc
 adb.exe shell input keyevent 62
@@ -320,7 +320,7 @@ adb.exe shell input text %ram%
 adb.exe shell input keyevent 62
 adb.exe shell input text -hda
 adb.exe shell input keyevent 62
-adb.exe shell input text /storage/emulated/0/7.vhd
+adb.exe shell input text /storage/emulated/0/7.qcow2
 adb.exe shell input keyevent 62
 adb.exe shell input text -vnc
 adb.exe shell input keyevent 62
@@ -425,10 +425,10 @@ echo Please allow the storage permission!
 timeout 15
 cls
 echo Downloading Windows... (This may take a while)
-echo Please download Windows from https://anonfiles.com/r6ueF1fay4 and put it on the directory of this program and press enter.
+echo Please download Windows from https://drive.google.com/file/d/1jjwuTxv80PjLp68yccorfFiVnmGZYT_e/view?usp=sharing and put it on the directory of this program and press enter.
 pause
-adb.exe push 8.vhd /sdcard
-del 8.vhd /f /q 
+adb.exe push 8.qcow2 /sdcard
+del 8.qcow2 /f /q 
 timeout 10
 echo How much ram do you wish to set for Windows? (4096 recomended)
 set /p ram=
@@ -443,7 +443,7 @@ adb.exe shell input text %ram%
 adb.exe shell input keyevent 62
 adb.exe shell input text -hda
 adb.exe shell input keyevent 62
-adb.exe shell input text /storage/emulated/0/8.vhd
+adb.exe shell input text /storage/emulated/0/8.qcow2
 adb.exe shell input keyevent 62
 adb.exe shell input text -vnc
 adb.exe shell input keyevent 62
@@ -486,7 +486,7 @@ adb.exe shell input text %ram%
 adb.exe shell input keyevent 62
 adb.exe shell input text -hda
 adb.exe shell input keyevent 62
-adb.exe shell input text /storage/emulated/0/8.vhd
+adb.exe shell input text /storage/emulated/0/8.qcow2
 adb.exe shell input keyevent 62
 adb.exe shell input text -vnc
 adb.exe shell input keyevent 62
@@ -591,9 +591,9 @@ echo Please allow the storage permission!
 timeout 15
 cls
 echo Downloading Windows... (This may take a while)
-echo Please download Windows from https://anonfiles.com/zbP6E0fdyf and put it on the directory of this program and press enter.
+echo Please download Windows from https://drive.google.com/file/d/1JLu8joSOwIMnFJcPVqL3hdTwfQ25KB7w/view?usp=sharing and put it on the directory of this program and press enter.
 pause
-adb.exe push 10.vhd /sdcard
+adb.exe push 10.qcow2 /sdcard
 del 10.vhd /f /q
 timeout 10
 echo How much ram do you wish to set for Windows? (4096 recomended)
@@ -609,7 +609,7 @@ adb.exe shell input text %ram%
 adb.exe shell input keyevent 62
 adb.exe shell input text -hda
 adb.exe shell input keyevent 62
-adb.exe shell input text /storage/emulated/0/10.vhd
+adb.exe shell input text /storage/emulated/0/10.qcow2
 adb.exe shell input keyevent 62
 adb.exe shell input text -vnc
 adb.exe shell input keyevent 62
@@ -652,7 +652,7 @@ adb.exe shell input text %ram%
 adb.exe shell input keyevent 62
 adb.exe shell input text -hda
 adb.exe shell input keyevent 62
-adb.exe shell input text /storage/emulated/0/10.vhd
+adb.exe shell input text /storage/emulated/0/10.qcow2
 adb.exe shell input keyevent 62
 adb.exe shell input text -vnc
 adb.exe shell input keyevent 62
@@ -757,9 +757,9 @@ echo Please allow the storage permission!
 timeout 15
 cls
 echo Downloading Windows... (This may take a while)
-echo Please download Windows from https://anonfiles.com/hbv9Faffyf and put it on the directory of this program and press enter.
+echo Please download Windows from https://drive.google.com/file/d/1z2grJFOIPXnxdcOQDYycgNdZKFnbIsHo/view?usp=sharing and put it on the directory of this program and press enter.
 pause
-adb.exe push 11.qcow2 /sdcard
+adb.exe push 11.vhd /sdcard
 del 11.qcow2 /f /q
 timeout 10
 echo How much ram do you wish to set for Windows? (4096 recomended)
@@ -775,7 +775,7 @@ adb.exe shell input text %ram%
 adb.exe shell input keyevent 62
 adb.exe shell input text -hda
 adb.exe shell input keyevent 62
-adb.exe shell input text /storage/emulated/0/11.qcow2
+adb.exe shell input text /storage/emulated/0/11.vhd
 adb.exe shell input keyevent 62
 adb.exe shell input text -vnc
 adb.exe shell input keyevent 62
@@ -818,7 +818,7 @@ adb.exe shell input text %ram%
 adb.exe shell input keyevent 62
 adb.exe shell input text -hda
 adb.exe shell input keyevent 62
-adb.exe shell input text /storage/emulated/0/11.qcow2
+adb.exe shell input text /storage/emulated/0/11.vhd
 adb.exe shell input keyevent 62
 adb.exe shell input text -vnc
 adb.exe shell input keyevent 62
@@ -923,7 +923,7 @@ echo Please allow the storage permission!
 timeout 15
 cls
 echo Downloading Windows... (This may take a while)
-echo Please download Windows from https://anonfiles.com/p0VaDek1y4/vista_qcow2 and put it on the directory of this program and press enter.
+echo Please download Windows from https://drive.google.com/file/d/1gtpFjj5EoLoi4Ig1OXHvhI65KyQXZYo7/view?usp=sharing and put it on the directory of this program and press enter.
 pause
 adb.exe push vista.qcow2 /sdcard
 del vista.qcow2 /f /q
@@ -1042,7 +1042,7 @@ goto finish
 cls
 echo Uninstalling Windows...
 echo Deleting Windows image...
-adb.exe shell rm /sdcard/7.vhd
+adb.exe shell rm /sdcard/7.qcow2
 echo Starting Termux and deleting startup script...
 adb.exe shell am start -a android.intent.action.MAIN -n com.termux/com.termux.app.TermuxActivity
 timeout 2
@@ -1063,7 +1063,7 @@ goto finish
 cls
 echo Uninstalling Windows...
 echo Deleting Windows image...
-adb.exe shell rm /sdcard/8.vhd
+adb.exe shell rm /sdcard/8.qcow2
 echo Starting Termux and deleting startup script...
 adb.exe shell am start -a android.intent.action.MAIN -n com.termux/com.termux.app.TermuxActivity
 timeout 2
@@ -1084,7 +1084,7 @@ goto finish
 cls
 echo Uninstalling Windows...
 echo Deleting Windows image...
-adb.exe shell rm /sdcard/10.vhd
+adb.exe shell rm /sdcard/10.qcow2
 echo Starting Termux and deleting startup script...
 adb.exe shell am start -a android.intent.action.MAIN -n com.termux/com.termux.app.TermuxActivity
 timeout 2
@@ -1105,7 +1105,7 @@ goto finish
 cls
 echo Uninstalling Windows...
 echo Deleting Windows image...
-adb.exe shell rm /sdcard/11.qcow2
+adb.exe shell rm /sdcard/11.vhd
 echo Starting Termux and deleting startup script...
 adb.exe shell am start -a android.intent.action.MAIN -n com.termux/com.termux.app.TermuxActivity
 timeout 2
