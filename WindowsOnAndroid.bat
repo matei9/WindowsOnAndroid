@@ -594,7 +594,7 @@ echo Downloading Windows... (This may take a while)
 echo Please download Windows from https://drive.google.com/file/d/1JLu8joSOwIMnFJcPVqL3hdTwfQ25KB7w/view?usp=sharing and put it on the directory of this program and press enter.
 pause
 adb.exe push 10.qcow2 /sdcard
-del 10.vhd /f /q
+del 10.qcow2 /f /q
 timeout 10
 echo How much ram do you wish to set for Windows? (4096 recomended)
 set /p ram=
@@ -760,7 +760,7 @@ echo Downloading Windows... (This may take a while)
 echo Please download Windows from https://drive.google.com/file/d/1z2grJFOIPXnxdcOQDYycgNdZKFnbIsHo/view?usp=sharing and put it on the directory of this program and press enter.
 pause
 adb.exe push 11.vhd /sdcard
-del 11.qcow2 /f /q
+del 11.vhd /f /q
 timeout 10
 echo How much ram do you wish to set for Windows? (4096 recomended)
 set /p ram=
